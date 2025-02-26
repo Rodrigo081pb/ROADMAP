@@ -17,3 +17,7 @@
 - Para tarefas I/O-bound (que passam muito tempo esperando rede, disco etc.), as threads podem ser vantajosas.
 
 - Para tarefas CPU-bound (que usam muito processamento), o paralelismo com threads é limitado pela GIL. Nesse caso, a multiprocessing (vários processos) é mais interessante.
+
+### 2.0 Sincronização de Threads
+
+Quando threads compartilham recursos (variáveis, dados, arquivos), pode rolar concorrência e resultados inesperados. Pra evitar isso, usamos mecanismos de sincronização.
