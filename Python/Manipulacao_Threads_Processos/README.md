@@ -21,3 +21,7 @@
 ### 2.0 Sincronização de Threads
 
 Quando threads compartilham recursos (variáveis, dados, arquivos), pode rolar concorrência e resultados inesperados. Pra evitar isso, usamos mecanismos de sincronização.
+
+### 2.1 Pool de Threads (ThreadPoolExecutor)
+
+- Pra gerenciar um grande número de tarefas em paralelo, o ThreadPoolExecutor (do módulo concurrent.futures) simplifica a criação e controle de múltiplas threads.
