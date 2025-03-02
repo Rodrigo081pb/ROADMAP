@@ -2,7 +2,7 @@
 
 - O que são Kubernetes ? 
 
-    - É um orquestrador de contaiers open-source criado pela google
+    - É um orquestrador de containers open-source criado pela google
 
     - Ele serve para gerenciar o deploy, escalonamento, balanceamento de carga, atualizações e muito mais.
 
