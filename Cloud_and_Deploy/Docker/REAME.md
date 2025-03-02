@@ -66,3 +66,21 @@ Comandos comuns do DockerFile:
 
 - CMD ou ENTRYPOINT: define qual comando será executado quando o contêiner iniciar.
 
+## Fundamentos docker
+
+- O que são container ?
+
+    São literalmente minis ambientes isolados que rodam dentro de um mesmo sistema
+    operacional
+
+### Arquitetura Docker:
+
+- Docker Client:
+    - É o que usamos para se comunicar com o servidor (Docker Daemon)
+
+- Docker Daimon:
+    - Processo que gerencia imagens, containers, redes e volumes do docker
+
+- Docker Registries: 
+    - São os repositórios de imagens (O mais famoso é o docker Hub)
+
