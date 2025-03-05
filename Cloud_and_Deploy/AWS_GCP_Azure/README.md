@@ -288,10 +288,6 @@ A **Gestão de Identidade e Acesso (IAM)** é crucial para controle de permissõ
 
 ---
 
-## Conclusão
-
-Nesta visão abrangente, cobrimos desde conceitos básicos (VMs, Armazenamento, Bancos de Dados, Rede, IAM) até temas avançados (HPC, AI/ML, Big Data, Segurança Avançada, Arquiteturas Híbridas e Multi-Cloud). As três gigantes — **AWS**, **GCP** e **Azure** — oferecem soluções similares, mas cada uma com suas particularidades e ecossistemas.
-
 ### Dicas Finais
 
 - **Mão na massa**: Criar contas *free tier* e experimentar (AWS, GCP e Azure oferecem créditos iniciais).
@@ -299,5 +295,3 @@ Nesta visão abrangente, cobrimos desde conceitos básicos (VMs, Armazenamento, 
 - **Estudo Contínuo**: O mundo cloud é dinâmico. Novos serviços surgem e evoluem constantemente.
 - **Infraestrutura como Código**: Automatizar o provisionamento e manter versionado em repositórios (Git).
 - **Monitoramento e Segurança**: Nunca subestime logs, métricas e boas práticas de IAM — reduzem dores de cabeça e problemas de compliance.
-
-Estudar Cloud Computing é um caminho promissor! Pratique, explore cenários reais e, qualquer dúvida, bora trocar ideia. “É bronca não, mano!” Sucesso na jornada na nuvem!
