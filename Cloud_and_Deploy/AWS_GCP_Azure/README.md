@@ -1,7 +1,5 @@
 # Guia Completo: Conceitos Básicos a Avançados de AWS, GCP e Azure
 
-> **Observação**: Este documento está todo em Markdown e abrange do nível **básico** ao **avançado** sobre **Amazon Web Services (AWS)**, **Google Cloud Platform (GCP)** e **Microsoft Azure**. Não há conteúdo sobre Docker aqui — apenas Cloud Computing nos três provedores.
-
 ---
 
 ## Sumário
