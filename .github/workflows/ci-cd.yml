@@ -40,7 +40,7 @@ jobs:
       - name: Rodar testes automatizados
         run: |
           pip install pytest
-          pytest
+          pytest --maxfail=1 --disable-warnings --rootdir=tests
 
       # # 6️⃣ (Opcional) Faz build do projeto
       # - name: Construir pacote Python
