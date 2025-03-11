@@ -34,3 +34,5 @@ No GitHub Actions, um pipeline é chamado de **Workflow**, e ele é composto por
 4️⃣ Se tudo der certo, faz o **deploy automático**.  
 
 ---
+
+O código da configuração que fizemos do workflow está na pasta .github/workflows
