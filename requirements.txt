@@ -3,6 +3,5 @@ numpy
 pandas
 openpyxl
 beautifulsoup4
-pywin32
 pretty-html-table
 python-dotenv
