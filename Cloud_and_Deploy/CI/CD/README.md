@@ -1,8 +1,4 @@
-Beleza, boy! Agora vou te ensinar **do zero ao avançado** sobre o **MÓDULO 1 - INTRODUÇÃO AO CI/CD**, quebrando em partes pra tu entender tudo.
-
----
-
-# **MÓDULO 1 - INTRODUÇÃO AO CI/CD**
+# **CI/CD**
 
 ## **1. O que é CI/CD?**
 CI/CD significa **Continuous Integration (Integração Contínua) e Continuous Delivery/Deployment (Entrega/Implantação Contínua)**. Ele resolve problemas comuns no desenvolvimento de software, como:
@@ -20,8 +16,6 @@ Com **CI/CD**, tudo é automatizado:
 ✅ O código é testado automaticamente.  
 ✅ Se tudo estiver certo, é gerado um **build**.  
 ✅ O build é enviado para o servidor sem tu precisar fazer nada.  
-
-Resultado? **Menos trabalho manual, menos erros e mais produtividade!** 🚀
 
 ---
 
@@ -68,7 +62,6 @@ Tem várias ferramentas, mas as mais famosas são:
 ---
 
 ## **5. Ciclo de Vida do CI/CD**
-Agora que tu já sacou a teoria, bora ver o fluxo completo de um pipeline de CI/CD:
 
 1️⃣ **Desenvolvedor faz commit no Git** 📝  
 2️⃣ **CI entra em ação** 🚀  
