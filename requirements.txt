@@ -1,15 +1,8 @@
-os
-re
-json
-time
 requests
-warnings
 numpy
 pandas
 openpyxl
 beautifulsoup4
-requests
 pywin32
-datetime
 pretty-html-table
 python-dotenv
