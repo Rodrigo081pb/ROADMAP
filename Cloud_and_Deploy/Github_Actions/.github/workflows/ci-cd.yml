@@ -1,0 +1,36 @@
+name: Meu Primeiro Workflow
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Rodar testes
+        run: npm test
+
+# Explicação do código:
+
+# on: push → O pipeline roda toda vez que alguém fizer push na main.
+# jobs: build → Define um job chamado "build".
+# runs-on: ubuntu-latest → Roda o job em um servidor Ubuntu.
+# steps → Lista de etapas a serem executadas.
+# actions/checkout@v3 → Baixa o código do repositório.
+# actions/setup-node@v3 → Instala o Node.js.
+# npm install / npm test → Instala dependências e roda testes.
+
